@@ -16,10 +16,12 @@ word = str(random.choice(words)).lower()
 # counts number of letters in words
 word_length = len(word)
 
+"""
 # prints word for testing purpose
 print('||||||||||||||||||||||||||||||')
 print('The Word Is: ', word)
 print('||||||||||||||||||||||||||||||')
+"""
 
 # Define hints, [] to grab the letter at a certain position in the word
 hint1 = word[0]
